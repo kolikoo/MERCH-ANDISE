@@ -1,0 +1,161 @@
+@font-face{
+ font-family:"font";
+ src:url(../fonts/ar-archy-extralight.ttf);
+}
+
+
+ .home_index{
+ max-width: 100%;
+}
+/* header  *//* header  *//* header  *//* header  *//* header  *//* header  *//* header  */
+
+.home_header{
+ position: fixed;
+ background-color: white;
+ z-index: 3;
+ width: 100%;
+ display: flex;
+ justify-content: center;
+ 
+}
+
+.header_home_nav{
+ width: 100%;
+ display: flex;
+ justify-content: center;
+ height: 150px;
+
+}
+
+.header_home_ul{
+ align-items: center;
+ display: flex;
+ justify-content: center;
+ width: 65%;
+gap: -50px;
+}
+
+ .header_home_li{
+ display: flex;
+ justify-content: center;
+width: 20%;
+font-size: 27px;
+font-family: "font";
+font-weight:900 ;
+
+}
+
+.header_home_a{
+  color: black;
+
+}
+
+.header_home_li:hover{color: gold;}
+
+.header_home_a:hover{
+  color: gold;
+  transform: scale(1.1);
+  transition: 0.7s ease ;
+ 
+}
+.logo_nav:hover{
+ transform: scale(1.1);
+  transition: 0.7s ease ;
+
+}
+
+
+
+
+.logo_nav{width:100%;
+height: 120px;
+}
+
+.fa-solid{font-size: 28px;}
+
+.icons_1{position: absolute;
+top: 20%;
+left: 85%;
+
+}
+.icons_2{position: absolute;
+top: 20%;
+left: 88%;
+
+}
+/* header  *//* header  *//* header  *//* header  *//* header  *//* header  *//* header  */
+
+/* section1 *//* section1 *//* section1 *//* section1 *//* section1 *//* section1 *//* section1 */
+
+.contact_section1{
+
+width: 95%;
+margin: auto;
+padding-top: 200px;
+display: flex;
+justify-content: center;
+}
+
+.contact_section1_image{
+width: 60%;
+
+
+
+}
+
+
+
+
+/* section1 *//* section1 *//* section1 *//* section1 *//* section1 *//* section1 *//* section1 */
+
+/* section2 *//* section2 *//* section2 *//* section2 *//* section2 *//* section2 *//* section2 */
+
+.section2{
+ padding-top: 30px;
+ width: 95%;
+ margin: auto;
+display: flex;
+justify-content: space-between;
+
+}
+
+
+.contactus_h2{
+font-size: 30px;
+font-weight: 800;
+
+}
+
+.contactus_p{
+font-size: 30px;
+
+}
+
+
+/* section2 *//* section2 *//* section2 *//* section2 *//* section2 *//* section2 *//* section2 */
+
+/* footer *//* footer *//* footer *//* footer *//* footer *//* footer *//* footer *//* footer */ 
+
+ .footer1{
+  background-color: rgb(255, 183, 0);
+display: flex;
+padding: 50px 4%;
+justify-content: space-between;
+align-items: center;
+
+ }
+.footer_socials{
+line-height: 20px;
+
+}
+
+.footer_h4{font-size: 50px;}
+
+ 
+ i{font-size: 60px;}
+
+
+
+
+
+/* footer *//* footer *//* footer *//* footer *//* footer *//* footer *//* footer *//* footer */

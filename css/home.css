@@ -5,16 +5,19 @@
 
 
  .home_index{
- max-width: 100%;
+max-width: 100%;
 }
-/* header *//* header *//* header *//* header *//* header *//* header *//* header *//* header */
+/* header  *//* header  *//* header  *//* header  *//* header  *//* header  *//* header  */
 
 .home_header{
- position: relative;
+ position: fixed;
+ background-color: white;
+ z-index: 3;
  width: 100%;
  display: flex;
  justify-content: center;
 }
+
 .header_home_nav{
  width: 100%;
  display: flex;
@@ -39,14 +42,31 @@ font-size: 27px;
 font-family: "font";
 font-weight:900 ;
 
+}
+
+.header_home_a{
+  color: black;
 
 }
 
 .header_home_li:hover{color: gold;}
 
+.header_home_a:hover{
+  color: gold;
+  transform: scale(1.1);
+  transition: 0.7s ease ;
+ 
+}
+
+.logo_nav:hover{
+ transform: scale(1.1);
+  transition: 0.7s ease ;
+
+}
 
 
-.logo_nav{width: 30%;
+
+.logo_nav{width:100%;
 height: 120px;
 }
 
@@ -62,11 +82,7 @@ top: 20%;
 left: 88%;
 
 }
-
-
-
-
-/* header *//* header *//* header *//* header *//* header *//* header *//* header *//* header */
+/* header  *//* header  *//* header  *//* header  *//* header  *//* header  *//* header  */
 /* slideshow  *//* slideshow  *//* slideshow  *//* slideshow  *//* slideshow  */
 .slideshow-container {
   max-width: 50%;
@@ -81,9 +97,9 @@ left: 88%;
 
 .slide_image{
   width: 100%;
-  height: 400px;
+  height: 350px;
 position: absolute;
-top: 23%;
+top: 28%;
 left: 50%;
 
 transform: translate(-50%);
@@ -94,8 +110,9 @@ transform: translate(-50%);
  position: absolute;
   text-align: center;
   margin-top: 20px;
-  top: 100%;
+  top: 90%;
 left: 50%;
+
 
 transform: translate(-50%);
 }
@@ -135,27 +152,35 @@ transform: translate(-50%);
 }
 
 
-/* .prev, .next {
-  position: absolute;
-  top: 53%;
-  transform: translateY(-50%);
-  background-color: rgb(255, 215, 0,0.8);
-  color: white;
-  padding: 10px 15px;
- 
-  cursor: pointer;
-  border-radius: 24px;
-  width: 7%;
-  text-align: center;
-  border: whitesmoke;
-}
-
-.prev {
-  left: 8%;
-}
-
-.next {
-  right: 8%;
-} */
-
 /* slideshow  *//* slideshow  *//* slideshow  *//* slideshow  *//* slideshow  *//* slideshow  *//* slideshow  */
+
+/* footer *//* footer *//* footer *//* footer *//* footer *//* footer *//* footer *//* footer */ 
+
+ .footer1{
+width: 100%;
+ 
+  background-color: rgb(255, 183, 0);
+display: flex;
+padding: 50px 4%;
+justify-content: space-between;
+align-items: center;
+;
+margin-top: 134px;
+
+
+ }
+.footer_socials{
+line-height: 20px;
+
+}
+
+.footer_h4{font-size: 50px;}
+
+ 
+ i{font-size: 60px;}
+
+
+
+
+
+/* footer *//* footer *//* footer *//* footer *//* footer *//* footer *//* footer *//* footer */
