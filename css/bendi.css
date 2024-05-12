@@ -226,3 +226,33 @@ justify-content: center;
 
 
 /* section1 *//* section1 *//* section1 *//* section1 *//* section1 *//* section1 *//* section1 */
+
+
+/* footer *//* footer *//* footer *//* footer *//* footer *//* footer *//* footer *//* footer */ 
+
+ .footer1{
+  background-color: rgb(255, 183, 0);
+display: flex;
+padding: 50px 4%;
+justify-content: space-between;
+align-items: center;
+
+ }
+.footer_socials{
+line-height: 20px;
+
+}
+
+.footer_h4{
+  font-size: 50px;
+  font-family: "Open Sans", sans-serif;
+}
+
+ 
+ i{font-size: 60px;}
+
+
+
+
+
+/* footer *//* footer *//* footer *//* footer *//* footer *//* footer *//* footer *//* footer */

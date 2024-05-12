@@ -1,0 +1,375 @@
+/* font  *//* font  *//* font  *//* font  *//* font  *//* font  *//* font  */
+@font-face{
+ font-family:"font";
+ src:url(../fonts/ar-archy-extralight.ttf);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+/* font  *//* font  *//* font  *//* font  *//* font  *//* font  *//* font  */
+
+ .home_index{
+ max-width: 100%;
+}
+/* header  *//* header  *//* header  *//* header  *//* header  *//* header  *//* header  */
+
+.home_header{
+ position: fixed;
+ background-color: white;
+ z-index: 3;
+ width: 100%;
+ display: flex;
+ justify-content: center;
+ 
+}
+
+.header_home_nav{
+ width: 100%;
+ display: flex;
+ justify-content: center;
+ height: 150px;
+
+}
+
+.header_home_ul{
+ align-items: center;
+ display: flex;
+ justify-content: center;
+ width: 65%;
+gap: -50px;
+}
+
+ .header_home_li{
+ display: flex;
+ justify-content: center;
+width: 20%;
+font-size: 27px;
+font-family: "font";
+font-weight:900 ;
+
+}
+
+.header_home_a{
+  color: black;
+
+}
+
+.header_home_li:hover{color: gold;}
+
+.header_home_a:hover{
+  color: gold;
+  transform: scale(1.1);
+  transition: 0.7s ease ;
+ 
+}
+.logo_nav:hover{
+ transform: scale(1.1);
+  transition: 0.7s ease ;
+
+}
+
+
+
+
+.logo_nav{width:100%;
+height: 120px;
+}
+
+.fa-solid{font-size: 28px;}
+
+.icons_1{position: absolute;
+top: 20%;
+left: 85%;
+
+}
+.icons_2{position: absolute;
+top: 20%;
+left: 88%;
+
+}
+/* header  *//* header  *//* header  *//* header  *//* header  *//* header  *//* header  */
+
+/* section1 *//* section1 *//* section1 *//* section1 *//* section1 *//* section1 *//* section1 */
+
+.section1{
+  
+  padding-top: 200px;
+
+
+}
+
+#products .first_product_images{
+ width: 44%;
+margin-right: 40px;
+}
+
+
+.first_product_images{
+margin-left: 5%;
+
+display: flex;
+
+/* cursor: pointer; */
+
+
+ 
+
+}
+
+.small-image-group{
+
+ display: flex;
+width: 15%;
+ flex-direction: column;
+height: 400px;
+justify-content: space-around;
+align-items: center;
+  flex-basis: 24%;
+
+}
+
+.small-image-col{
+ flex-basis: 20%;
+cursor: pointer;
+height: 170px;
+width: 80%;
+  
+  border: 1px solid #d1d1d1;
+
+
+}
+
+.small-image{
+  height: 120px;
+  width: 100%;
+  
+}
+
+.mainimg{
+  border: 1px solid #d1d1d1;
+}
+
+.productdivs{display: flex;}
+
+/* product_detail  *//* product_detail  *//* product_detail  *//* product_detail  */
+.second_product{
+  width: 50%;
+
+}
+
+.product_detail{
+display: flex;
+flex-direction: column;
+
+padding-top: 70px;
+justify-content: space-between;
+align-items: center;
+height: 300px;
+
+}
+
+.product_detail_h2{
+  font-family: "Open Sans", sans-serif; 
+  font-weight: 700;
+  font-size: 33px;
+}
+
+.price{
+  font-weight: 500;
+font-size: 24px;
+position: relative;
+}
+
+.button_buy{
+
+  width: 27%;
+  height: 50px;
+  border-radius: 0px;
+  background-color: white;
+  font-size: 25px;
+display: flex;
+justify-content: center;
+align-items: center;
+  font-weight: 100;
+  color: rgb(63, 63, 63);
+  margin-top: 25px;
+  margin-bottom: 5px;
+
+}
+
+.button_buy:hover{
+  background-color: black;
+  color: white;
+
+  transition: 0.5s;
+}
+
+
+.button_wishlist{
+border-radius: 0px;
+background-color: black;
+color: rgb(223, 223, 223);
+position: absolute;
+
+left: 1090px;
+
+top: 500px;
+}
+
+.jersey_Detail{
+
+  margin-top: 100px;
+  width: 35%;
+font-size: 13px;
+text-align: start;
+padding-left: 80px;
+}
+
+
+
+
+
+
+
+/* boxs */
+
+.boxs{display: flex;}
+.size {
+    width: 30px;
+    height: 30px;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: 0 5px;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    line-height: 15px;
+    color: black;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+  }
+  .size.active {
+    color: white;
+    background-color: black;
+    font-weight: 600;
+  }
+
+
+/* boxs */
+
+
+/* section1 *//* section1 *//* section1 *//* section1 *//* section1 *//* section1 *//* section1 */
+
+
+/* section2 *//* section2 *//* section2 *//* section2 *//* section2 *//* section2 *//* section2 */
+
+.more_quemmekh{
+  width: 100%;
+display: flex;
+padding-top: 140px;
+
+
+
+}
+
+.h3_more_quemmekh{
+
+  position: absolute;
+
+  padding-top: 65px;
+  padding-left: 50px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 35px;
+  font-weight: 100;
+}
+
+.box-img{width: 100%;}
+
+
+.more_box{
+  
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+gap: 10px;
+
+width: 25%;
+}
+
+.product_box_a{
+
+  width: 70%;
+}
+
+.main_more_quemmekh{
+  display: flex;
+flex-direction: column;
+}
+
+.text_h3{
+  font-weight: 500;
+  font-family: "Open Sans", sans-serif;
+
+}
+
+.text_p{
+  font-weight: 600;
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+}
+
+
+/* section2 *//* section2 *//* section2 *//* section2 *//* section2 *//* section2 *//* section2 */
+
+/* section3 *//* section3 *//* section3 *//* section3 *//* section3 *//* section3 *//* section3 */
+
+.you_may_also_like{
+display: flex;
+flex-wrap: wrap;
+margin-top: 40px;
+
+
+}
+
+.section3_h3{
+   font-family: "Open Sans", sans-serif;
+  font-size: 35px;
+  font-weight: 100;
+  padding-top: 65px;
+  padding-left: 50px;
+}
+
+
+
+/* section3 *//* section3 *//* section3 *//* section3 *//* section3 *//* section3 *//* section3 */
+
+/* footer *//* footer *//* footer *//* footer *//* footer *//* footer *//* footer *//* footer */ 
+
+ .footer1{
+  background-color: rgb(255, 183, 0);
+display: flex;
+padding: 50px 4%;
+justify-content: space-between;
+align-items: center;
+margin-top: 70px;
+
+ }
+.footer_socials{
+line-height: 20px;
+
+}
+
+.footer_h4{
+  font-family: "Open Sans", sans-serif;
+  font-size: 50px;}
+
+ 
+ i{font-size: 60px;}
+
+
+/* footer *//* footer *//* footer *//* footer *//* footer *//* footer *//* footer *//* footer */
